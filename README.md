@@ -3,8 +3,8 @@
 ## 一、脚本功能概述
 | 脚本文件 | 核心功能 |
 |----------|----------|
-| `simulate_goal_visual_encoder_ann.py` | 无BSN/SEW/SpikingJelly依赖，采用torchvision原生ResNet18实现视觉特征提取与目标嵌入融合，是ANN架构下视觉编码任务的核心执行入口 |
-| `simulate_goal_visual_encoder_bsn.py` | 依赖SpikingJelly实现脉冲神经元计算，复刻仓库中BSN神经元逻辑，对应脉冲神经网络版本的视觉编码仿真，与ANN版本形成对照实验 |
+| `simulate_goal_visual_encoder_ann.py` | 无额外依赖，采用torchvision原生ResNet18实现视觉特征提取与目标嵌入融合 |
+| `simulate_goal_visual_encoder_bsn.py` | 依赖SpikingJelly实现脉冲神经元计算，包含BSN神经元逻辑，对应脉冲神经网络版本的视觉编码仿真，与ANN版本形成对照实验 |
 
 ## 二、脚本运行方法
 
