@@ -1,0 +1,76 @@
+nohup: ignoring input
+==================================================
+加载文件: /data/ssj/robustnav/projects/objectnav_baselines/data_collect/collected_128.npz
+文件包含所有字段: ['images', 'goals', 'scenes', 'target_names']
+==================================================
+
+images:
+   形状 (shape): (128, 224, 224, 3)
+   数据类型 (dtype): uint8
+   格式: HWC = (224, 224, 3)，单帧像素值范围: 0 ~ 255
+   前2帧预览: shape = (2, 224, 224, 3)
+
+goals:
+   形状 (shape): (128,)
+   数据类型 (dtype): int32
+   数值内容: [ 0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  2  2  2  2  2  2  2  2
+  3  3  3  3  3  3  3  3  4  4  4  4  4  4  4  4  0  0  0  0  0  0  0  0
+  5  5  5  5  5  5  5  5  6  6  6  6  6  6  6  6  2  2  2  2  2  2  2  2
+  7  7  7  7  7  7  7  7  8  8  8  8  8  8  8  8  9  9  9  9  9  9  9  9
+ 10 10 10 10 10 10 10 10 11 11 11 11 11 11 11 11 12 12 12 12 12 12 12 12
+ 12 12 12 12 12 12 12 12]
+
+target_names:
+   形状 (shape): (13,)
+   数据类型 (dtype): object
+   内容: ['Painting' 'Desk' 'Shelf' 'Bed' 'CoffeeTable' 'Book' 'DeskLamp' 'Chair'
+ 'HousePlant' 'Candle' 'Television' 'Bottle' 'Box']
+
+scenes:
+   形状 (shape): (128,)
+   数据类型 (dtype): object
+   内容: ['FloorPlan_Train1_1' 'FloorPlan_Train1_1' 'FloorPlan_Train1_1'
+ 'FloorPlan_Train1_1' 'FloorPlan_Train1_1' 'FloorPlan_Train1_1'
+ 'FloorPlan_Train1_1' 'FloorPlan_Train1_1' 'FloorPlan_Train1_2'
+ 'FloorPlan_Train1_2' 'FloorPlan_Train1_2' 'FloorPlan_Train1_2'
+ 'FloorPlan_Train1_2' 'FloorPlan_Train1_2' 'FloorPlan_Train1_2'
+ 'FloorPlan_Train1_2' 'FloorPlan_Train1_3' 'FloorPlan_Train1_3'
+ 'FloorPlan_Train1_3' 'FloorPlan_Train1_3' 'FloorPlan_Train1_3'
+ 'FloorPlan_Train1_3' 'FloorPlan_Train1_3' 'FloorPlan_Train1_3'
+ 'FloorPlan_Train2_1' 'FloorPlan_Train2_1' 'FloorPlan_Train2_1'
+ 'FloorPlan_Train2_1' 'FloorPlan_Train2_1' 'FloorPlan_Train2_1'
+ 'FloorPlan_Train2_1' 'FloorPlan_Train2_1' 'FloorPlan_Train1_1'
+ 'FloorPlan_Train1_1' 'FloorPlan_Train1_1' 'FloorPlan_Train1_1'
+ 'FloorPlan_Train1_1' 'FloorPlan_Train1_1' 'FloorPlan_Train1_1'
+ 'FloorPlan_Train1_1' 'FloorPlan_Train1_2' 'FloorPlan_Train1_2'
+ 'FloorPlan_Train1_2' 'FloorPlan_Train1_2' 'FloorPlan_Train1_2'
+ 'FloorPlan_Train1_2' 'FloorPlan_Train1_2' 'FloorPlan_Train1_2'
+ 'FloorPlan_Train1_3' 'FloorPlan_Train1_3' 'FloorPlan_Train1_3'
+ 'FloorPlan_Train1_3' 'FloorPlan_Train1_3' 'FloorPlan_Train1_3'
+ 'FloorPlan_Train1_3' 'FloorPlan_Train1_3' 'FloorPlan_Train2_1'
+ 'FloorPlan_Train2_1' 'FloorPlan_Train2_1' 'FloorPlan_Train2_1'
+ 'FloorPlan_Train2_1' 'FloorPlan_Train2_1' 'FloorPlan_Train2_1'
+ 'FloorPlan_Train2_1' 'FloorPlan_Train1_1' 'FloorPlan_Train1_1'
+ 'FloorPlan_Train1_1' 'FloorPlan_Train1_1' 'FloorPlan_Train1_1'
+ 'FloorPlan_Train1_1' 'FloorPlan_Train1_1' 'FloorPlan_Train1_1'
+ 'FloorPlan_Train1_2' 'FloorPlan_Train1_2' 'FloorPlan_Train1_2'
+ 'FloorPlan_Train1_2' 'FloorPlan_Train1_2' 'FloorPlan_Train1_2'
+ 'FloorPlan_Train1_2' 'FloorPlan_Train1_2' 'FloorPlan_Train1_3'
+ 'FloorPlan_Train1_3' 'FloorPlan_Train1_3' 'FloorPlan_Train1_3'
+ 'FloorPlan_Train1_3' 'FloorPlan_Train1_3' 'FloorPlan_Train1_3'
+ 'FloorPlan_Train1_3' 'FloorPlan_Train2_1' 'FloorPlan_Train2_1'
+ 'FloorPlan_Train2_1' 'FloorPlan_Train2_1' 'FloorPlan_Train2_1'
+ 'FloorPlan_Train2_1' 'FloorPlan_Train2_1' 'FloorPlan_Train2_1'
+ 'FloorPlan_Train1_1' 'FloorPlan_Train1_1' 'FloorPlan_Train1_1'
+ 'FloorPlan_Train1_1' 'FloorPlan_Train1_1' 'FloorPlan_Train1_1'
+ 'FloorPlan_Train1_1' 'FloorPlan_Train1_1' 'FloorPlan_Train1_2'
+ 'FloorPlan_Train1_2' 'FloorPlan_Train1_2' 'FloorPlan_Train1_2'
+ 'FloorPlan_Train1_2' 'FloorPlan_Train1_2' 'FloorPlan_Train1_2'
+ 'FloorPlan_Train1_2' 'FloorPlan_Train1_3' 'FloorPlan_Train1_3'
+ 'FloorPlan_Train1_3' 'FloorPlan_Train1_3' 'FloorPlan_Train1_3'
+ 'FloorPlan_Train1_3' 'FloorPlan_Train1_3' 'FloorPlan_Train1_3'
+ 'FloorPlan_Train2_1' 'FloorPlan_Train2_1' 'FloorPlan_Train2_1'
+ 'FloorPlan_Train2_1' 'FloorPlan_Train2_1' 'FloorPlan_Train2_1'
+ 'FloorPlan_Train2_1' 'FloorPlan_Train2_1']
+
+==================================================
