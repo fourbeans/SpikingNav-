@@ -17,6 +17,18 @@ python simulate_goal_visual_encoder_ann.py --input data/collected_128.npz --out 
 python simulate_goal_visual_encoder_bsn.py --input data/collected_128.npz --out output/encoded_x_128frame_bsn.pt --batch_size 64 --device cuda:0
 ```
 
+### binary-BSN版本脚本运行
+```bash
+nohup python simulate_goal_visual_encoder_bsn_binary.py --input data/collected_128.npz --out output/encoded_x_128frame_bsn.pt --batch_size 32 --device cuda:7 --verbose --collapse_mode percentile > binary.log 2>&1 &
+```
+- 说明：大部分 BSN 发放率集中在 40%～50%；
+        其次集中在 50%～75%，属于偏密区间；
+        极低发放率（<20%）
+  基础定义
+  输入：单位置在 4 个时间步的脉冲序列，计算 脉冲发放率 pre_nonzero（非零脉冲数 / 总时长），离散取值：0、0.25、0.5、0.75、1.0。
+
+
+
 ## 三、包依赖清单
 ### 基础依赖（两个脚本均需）
 | 包名 | 最低版本 | 说明 |
