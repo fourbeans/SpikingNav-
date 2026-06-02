@@ -27,7 +27,9 @@ nohup python simulate_goal_visual_encoder_bsn_binary.py --input data/collected_1
   基础定义
   输入：单位置在 4 个时间步的脉冲序列，计算 脉冲发放率 pre_nonzero（非零脉冲数 / 总时长），离散取值：0、0.25、0.5、0.75、1.0。
 
-
+### ResNetPreprocessorBSN的预训练模型下载（可选
+是一个在ImageNet上的预训练模型：checkpoint_max_test_acc1.pth
+链接: https://pan.baidu.com/s/1yTFWqetw3VydogNia-BYQA?pwd=6e78 提取码: 6e78 
 
 ## 三、包依赖清单
 ### 基础依赖（两个脚本均需）
