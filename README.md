@@ -11,6 +11,7 @@
 ### ANN版本脚本运行
 ```bash
 python simulate_goal_visual_encoder_ann.py --input data/collected_128.npz --out output/encoded_x_128frame_ann.pt --batch_size 64 --device cuda:0
+```
 
 ### BSN版本脚本运行
 ```bash
